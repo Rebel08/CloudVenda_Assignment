@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:rgb(81, 81, 221);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+}
+.row{
+    flex-direction: row;
+    border:2px solid black;
+    padding:25px;
+}
+h1{
+    font-size:3rem;
+    padding-bottom: 20px;
+    color:rgb(0, 0, 0);
+}
+
+.container .row label{
+    padding-bottom:8px;
+    text-align: center;
+    font-size: 1.2em;
+}   
+.container .row input{
+    margin: 6px;
+    border:1px solid black;
+    padding: 4px;
+    font-size: 1em;
+}
+#button{
+    border:2px solid black;
+    padding:6px;
+    border-radius: 10px;
+    margin:18px 5px 0px 0px;
+    background: rgb(61, 186, 61);;
+}
+#popup{
+    position:absolute;
+    top: 0;
+    left:40%;
+    z-index: 1;
+}
+#popup-box{
+    background:rgb(192, 226, 226);
+    padding: 12px;
+    border-radius: 10px;
+}
+ 
+#close-popup{
+    border-radius: 10px;
+    background: rgb(237, 114, 114);
+    padding: 5px;
+    margin-top:15px;
+}
